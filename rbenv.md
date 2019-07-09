@@ -13,7 +13,7 @@ Go into the project and check the Ruby versions on local and project are the sam
 ## Main Usage
 
 Install the same Ruby version
-`rbevn install`
+`rbevn install 2.7...?`
 
 Initialize Rbenv
 `rbenv init`
