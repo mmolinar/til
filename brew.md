@@ -31,11 +31,10 @@ Then install the packet related
 To install a cask
 `brew install cask name_of_cask`
 
-## Other informations
+## Uninstalling Brew
 
-* `brew info my_packet_name` will return informations on the packet installation
-* other informations 2
-* other informations 3
+To unistall Brew because it doesn't work for whatever reason.
+`ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"`
 
 ## Aternative tools
 
