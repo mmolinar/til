@@ -4,6 +4,8 @@ First steps when beginning a new project and/or setting up a new machine.
 
 ## New machine
 
+Install fish. Find out how.
+ 
 Create a public/private ssh key pair
 `ssh-keygen -t rsa -b 4096 -C "label or name for the key`
 
