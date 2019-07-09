@@ -15,6 +15,9 @@ Go into the project and check the Ruby versions on local and project are the sam
 Install the same Ruby version
 `rbevn install 2.7...?`
 
+Then install bundler gem
+`gem install bundler`
+
 Initialize Rbenv
 `rbenv init`
 
