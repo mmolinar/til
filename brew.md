@@ -4,9 +4,9 @@ Gestionnaire de packets to install and update programs all at once. Brew is for 
 
 Always install everything with brew so that updates are done at once and not one by one.
   
-## First steps
+## First steps (once only ie new machine)
 
-First thing to install is brew itself (with a new machine).
+First thing to install is brew itself.
 
 Then install Git with brew
 `brew install git`
@@ -14,11 +14,15 @@ Then install Git with brew
 Install Rbenv. Rbenv is like a brew for Ruby (Gestionnaire de Ruby). Everytime we use Ruby we'll do it using Rbenv.
 `brew install rbenv`
 
+Makes it easy to install any Ruby version
+`brew install ruby-build`
+
 Install to make sure rails db:.... 'always' works.
 `brew install rbenv-bundle-exec`
 
 Install after rbenv so installing bundler is not forgotten in a step. Avoids having to install with "gem install bundler" after installing rbenv. 
 `brew install rbenv-bundler`
+
 
 ## Main Usage
 
