@@ -17,8 +17,7 @@ Install Rbenv. Rbenv is like a brew for Ruby (Gestionnaire de Ruby). Everytime w
 Install to make sure rails db:.... 'always' works.
 `brew install rbenv-bundle-exec`
 
-Avoid to run `gem install bundler` after installing a new ruby version with rbenv 
-Not necessary if I install Ruby with 
+Install after rbenv so installing bundler is not forgotten in a step. Avoids having to install with "gem install bundler" after installing rbenv. 
 `brew install rbenv-bundler`
 
 ## Main Usage
