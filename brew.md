@@ -1,18 +1,38 @@
 ## brief
 
-  gestionnaire de packets to install and update programs all at once. Brew is for iOS
+Gestionnaire de packets to install and update programs all at once. Brew is for iOS. Brew is the  command for brew to startup, followed by a command like "search" or "install" to do something.
+
+Always install everything with brew so that updates are done at once and not one by one.
   
+## First steps
+
+First thing to install is brew itself (with a new machine).
+
+Then install Git with brew
+`brew install git`
+
+Install Ruby
+`brew install ruby`
+
+Install Rbenv. Rbenv is like a brew for Ruby (Gestionnaire de Ruby). Everytime we use Ruby we'll do it using Rbenv.
+`brew install rbenv`
+
+
 ## Main Usage
 
 First let's search for a packet (cause we don't obvsiously know the packet name)
-`brew search my_search_string`
+`brew search my_search_string` ie "sub" to look for "sublime"
 
 Then install the packet related
 `brew install my_packet`
 
+
 ## Advance usage
 
--> talk about cask here
+"Casks" are additional 'add-ons' like Chrome. They don't come with brew.
+
+To install a cask
+`brew install cask name_of_cask`
 
 ## Other informations
 
