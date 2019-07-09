@@ -14,6 +14,12 @@ Then install Git with brew
 Install Rbenv. Rbenv is like a brew for Ruby (Gestionnaire de Ruby). Everytime we use Ruby we'll do it using Rbenv.
 `brew install rbenv`
 
+Install to make sure rails db:.... 'always' works.
+`brew install rbenv-bundle-exec`
+
+Avoid to run `gem install bundler` after installing a new ruby version with rbenv 
+Not necessary if I install Ruby with 
+`brew install rbenv-bundler`
 
 ## Main Usage
 
