@@ -1,4 +1,4 @@
-## brief
+## Summary
 
 Gestionnaire de packets to install and update programs all at once. Brew is for iOS. Brew is the  command for brew to startup, followed by a command like "search" or "install" to do something.
 
