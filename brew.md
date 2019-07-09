@@ -11,9 +11,6 @@ First thing to install is brew itself (with a new machine).
 Then install Git with brew
 `brew install git`
 
-Install Ruby
-`brew install ruby`
-
 Install Rbenv. Rbenv is like a brew for Ruby (Gestionnaire de Ruby). Everytime we use Ruby we'll do it using Rbenv.
 `brew install rbenv`
 
