@@ -24,6 +24,9 @@ Add your SSH private key to the ssh-agent and store your passphrase in the keych
 Install gem bundler to be able to install gems.
 `gem install bundler`
 
+Install rails
+`gem install rails`
+
 Install all gems needed from the project (or cloned project) and run:
 `bundle install`
 
