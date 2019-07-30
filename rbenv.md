@@ -23,5 +23,8 @@ Initialize Rbenv
 
 Then follow instructions. 
 
+## Other
+Rbenv help and not man to see what to do.
+
 
 
