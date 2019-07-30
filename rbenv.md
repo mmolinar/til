@@ -11,6 +11,8 @@ Go into the project and check the Ruby versions on local and project are the sam
 `rbenv versions`
 
 ## Main Usage
+If Ruby version is system version, change to another one
+`rbenv local 2.7...?` (or tab after rbenv local to see what the options are)
 
 Install the same Ruby version
 `rbevn install 2.7...?`
