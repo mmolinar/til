@@ -28,5 +28,8 @@ Then follow instructions.
 ## Other
 Rbenv help and not man to see what to do.
 
+rm -rf .ruby-version on the Projects to go back to ruby system and have to create a new ruby version or choose a new one with each porejct
+
+
 
 
