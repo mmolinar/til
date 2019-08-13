@@ -1,9 +1,9 @@
 ## Validations
 
 ### Confirmation
-...`class Person < ApplicationRecord
-...  validates :email, confirmation: true
-...  validates :email_confirmation, presence: true
+`class Person < ApplicationRecord
+  validates :email, confirmation: true
+  validates :email_confirmation, presence: true
 end`
 
 In your view template you could use something like:
