@@ -1,6 +1,6 @@
 ## Validations
 
-### Confirmation
+### confirmation
 ```
 class Person < ApplicationRecord
   validates :email, confirmation: true
@@ -16,3 +16,9 @@ In your view template you could use something like:
 
 This check is performed only if email_confirmation is not nil. 
 To require confirmation, make sure to add a presence check for the confirmation attribute
+
+### format
+
+### length
+
+### presence
