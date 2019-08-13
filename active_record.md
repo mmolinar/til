@@ -5,6 +5,7 @@
   validates :email, confirmation: true
   validates :email_confirmation, presence: true
 end`
+
 In your view template you could use something like:
 `<%= text_field :person, :email %>
 <%= text_field :person, :email_confirmation %>`
