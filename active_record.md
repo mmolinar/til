@@ -1,10 +1,10 @@
 ## Validations
 
 ### Confirmation
-`class Person < ApplicationRecord
+```class Person < ApplicationRecord
   validates :email, confirmation: true
   validates :email_confirmation, presence: true
-end`
+end```
 
 In your view template you could use something like:
 `<%= text_field :person, :email %>
