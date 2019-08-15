@@ -20,3 +20,12 @@ def spinWords(string)
   sentence.join(' ')
 end
 ```
+```
+def spinWords(string)
+  array = string.split
+  array.each do |word|
+    word.reverse! if word.length > 4
+  end
+  array.join(' ')
+end
+```
