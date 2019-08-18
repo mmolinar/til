@@ -44,4 +44,5 @@ class Person < ApplicationRecord
     too_long: "%{count} characters is the maximum allowed" }
 end
 ```
+If minimum is going to be set to 1, it's best to use the "presence" validation and set it to true: `presence: true`
 ### presence
