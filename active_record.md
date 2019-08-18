@@ -45,4 +45,14 @@ class Person < ApplicationRecord
 end
 ```
 If minimum is going to be set to 1, it's best to use the "presence" validation and set it to true: `presence: true`
+
+### numericality
+This helper validates that your attributes have only numeric values. By default, it will match an optional sign followed by an integral or floating point number. To specify that only integral numbers are allowed set :only_integer to true.
+```
+class Player < ApplicationRecord
+  validates :points, numericality: true
+  validates :games_played, numericality: { only_integer: true }
+end
+```
+Besides only_integer it also accepts: `:greater_than, :greater_than_or_equal_to, :equal_to, :less_than, :less_than_or_equal_to, :other_than, :odd, :even`
 ### presence
