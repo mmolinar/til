@@ -19,6 +19,13 @@ This check is performed only if email_confirmation is not nil.
 To require confirmation, make sure to add a presence check for the confirmation attribute
 
 ### format
+The attributes values are only letters (no numbers).
+```
+class Product < ApplicationRecord
+  validates :legacy_code, format: { with: /\A[a-zA-Z]+\z/,
+    message: "only allows letters" }
+end
+```
 
 ### length
 
