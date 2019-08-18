@@ -28,5 +28,20 @@ end
 ```
 
 ### length
-
+Validates the length of the attribute.
+```
+class Person < ApplicationRecord
+  validates :name, length: { minimum: 2 }
+  validates :bio, length: { maximum: 500 }
+  validates :password, length: { in: 6..20 }
+  validates :registration_number, length: { is: 6 }
+end
+```
+The default error messages depend on the type of length validation being performed. You can personalize these messages using the :wrong_length, :too_long, and :too_short options and %{count} as a placeholder for the number corresponding to the length constraint being used. You can still use the :message option to specify an error message.
+```
+class Person < ApplicationRecord
+  validates :bio, length: { maximum: 1000,
+    too_long: "%{count} characters is the maximum allowed" }
+end
+```
 ### presence
