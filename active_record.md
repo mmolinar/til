@@ -55,4 +55,59 @@ class Player < ApplicationRecord
 end
 ```
 Besides only_integer it also accepts: `:greater_than, :greater_than_or_equal_to, :equal_to, :less_than, :less_than_or_equal_to, :other_than, :odd, :even`
+
 ### presence
+Validates the attribute is not empty.
+```
+class Person < ApplicationRecord
+  validates :name, :login, :email, presence: true
+end
+```
+If you want to be sure that an association is present, you'll need to test whether the associated object itself is present, and not the foreign key used to map the association.
+```
+class LineItem < ApplicationRecord
+  belongs_to :order
+  validates :order, presence: true
+end
+```
+
+### uniqueness
+This helper validates that the attribute's value is unique right before the object gets saved. It does not create a uniqueness constraint in the database, so it may happen that two different database connections create two records with the same value for a column that you intend to be unique. To avoid that, you must create a unique index on that column in your database.
+```
+class Account < ApplicationRecord
+  validates :email, uniqueness: true
+end
+```
+There is a :scope option that you can use to specify one or more attributes that are used to limit the uniqueness check:
+```
+class Holiday < ApplicationRecord
+  validates :name, uniqueness: { scope: :year,
+    message: "should happen once per year" }
+end
+```
+Uniqueness also take in `:case_sensitive` 
+
+## Validation options
+### :message
+As you've already seen, the :message option lets you specify the message that will be added to the  errors collection when validation fails. When not used, default error message appears.
+```
+class Person < ApplicationRecord
+  # Hard-coded message
+  validates :name, presence: { message: "must be given please" }
+ 
+  # Message with dynamic attribute value. %{value} will be replaced with
+  # the actual value of the attribute. %{attribute} and %{model} also
+  # available.
+  validates :age, numericality: { message: "%{value} seems wrong" }
+ 
+  # Proc
+  validates :username,
+    uniqueness: {
+      # object = person object being validated
+      # data = { model: "Person", attribute: "Username", value: <username> }
+      message: ->(object, data) do
+        "Hey #{object.name}!, #{data[:value]} is taken already! Try again #{Time.zone.tomorrow}"
+      end
+    }
+end
+```
