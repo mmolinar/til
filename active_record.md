@@ -111,3 +111,31 @@ class Person < ApplicationRecord
     }
 end
 ```
+### :on
+This lets you specify when the validation should happen, on :create or :update because the default behavior for all the built-in validation helpers is to be run on save (both when you're creating a new record and when you're updating it).
+```
+class Person < ApplicationRecord
+  # it will be possible to update email with a duplicated value
+  validates :email, uniqueness: true, on: :create
+ 
+  # it will be possible to create the record with a non-numerical age
+  validates :age, numericality: true, on: :update
+ 
+  # the default (validates on both create and update)
+  validates :name, presence: true
+end
+```
+You can also use on: to define custom contexts. Custom contexts need to be triggered explicitly by passing the name of the context to valid?, invalid?, or save.
+```
+
+class Person < ApplicationRecord
+  validates :email, uniqueness: true, on: :account_setup
+  validates :age, numericality: true, on: :account_setup
+  validates :name, presence: true
+end
+ 
+person = Person.new
+person.valid?(:account_setup) # => false
+person.errors.messages
+ # => {:email=>["has already been taken"], :age=>["is not a number"], :name=>["can't be blank"]}
+ ```
