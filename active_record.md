@@ -1,6 +1,7 @@
 ## Validations
 
 ### confirmation
+You should use this helper when you have two text fields that should receive exactly the same content. For example, you may want to confirm an email address or a password. 
 ```
 class Person < ApplicationRecord
   validates :email, confirmation: true
