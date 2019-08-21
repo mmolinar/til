@@ -1,5 +1,5 @@
-## Validations
-
+# Validations
+## Validation Helpers
 ### confirmation
 You should use this helper when you have two text fields that should receive exactly the same content. For example, you may want to confirm an email address or a password. 
 ```
@@ -139,3 +139,21 @@ person.valid?(:account_setup) # => false
 person.errors.messages
  # => {:email=>["has already been taken"], :age=>["is not a number"], :name=>["can't be blank"]}
  ```
+ 
+ ## Displaying validation errors in views
+ ```
+ <% if @article.errors.any? %>
+  <div id="error_explanation">
+    <h2><%= pluralize(@article.errors.count, "error") %> prohibited this article from being saved:</h2>
+ 
+    <ul>
+    <% @article.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+    <% end %>
+    </ul>
+  </div>
+<% end %>
+```
+# Callbacks
+Callbacks are methods that get called at certain moments of an object's life cycle and allow you to trigger logic before or after an alteration of an object's state. It is considered good practice to declare callback methods as private
+###
