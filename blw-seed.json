@@ -376,3 +376,107 @@
   },
   "description": "Esto es lo divertido y fascinante de baby led weaning o alimentación complementaria: le puedes ofrecer mucho más de lo que jamás imaginaste! No añadir sal y es preferible que tampoco tenga azúcar, aditivos o conservadores ni mucha grasa. Pero excluyendo\n    eso, todo lo que comes tu lo puede comer tu bebé, siempre y cuando los alimentos sean frescos y nutritivos. ¿Pasta boloñesa? ¡Perfecto! ¿Mango y fresas? ¡Claro! ¿Curry Thai de pollo con pimientos rojos? ¡Sí! Olvídate de lo que crees saber hasta ahora,\n    si tu bebé cumple con los requisitos para comenzar baby led weaning o alimentación complementaria, es hora de ayudar a tu bebé a descubrir el maravilloso mundo de la comida Hay algunos alimentos que son ‘ideales’ para el principio. ¿Por qué? Porque\n    son alimentos muy nutritivos, sanos y que se prestan fácilmente a ser manipulados por manitas pequeñas. También es bueno privilegiar alimentos altos en hierro como la carne, pescado, pollo y huevo y alimentos con alto contenido energético. Pero en\n    realidad puedes comenzar con lo que quieras. Además no le temas al sabor y usa especias! Agrégale canela, jengibre, perejil, ajo, mantequilla, cebolla, cilantro o lo que quieras para darle un buen sazón. Deja al lado alimentos sosos y desabridos.\n    Algunas cosas para tomar en cuenta: Si son resbalosos como el agucate, mango o plátano, déjales la cáscara para que puedan agarrarlo mejor. Pela la mitad del plátano y la otra dejala con cáscara por ejemplo. La textura idea es aquella que puedes deshacer\n    fácilmente entre tu pulgar e índice. Cualquier alimento debe ser cocinado (horneadas, al vapor, en el sarten...) hasta obtener la textura ideal. Algunos alimentos se pueden dar crudos (mango, aguacte, pasta, frijoles, plátano) pero de otra manera\n    cocinalos hasta este punto. De otra manera, los alimentos duros pueden ser un riesgo de ahogamiento. Privilegia alimentos con hierro para evitar la anemia. Ofrece pedazos grandes para que puedan agarralos y llevárselos a la boca. Evita alimentos peligrosos\n    y recuerda que el alimento se debe poder deshacer entre tu pulgar e índice. El tamaño ideal es más largo que el puño de tu bebé para que pueda agarrarlo y le sobre un poco para meterlo a la boca. Ofrece de poco en poco para no abrumar a tu bebé. Uno\n    o dos alimentos diferentes a la vez y en poca cantidad. ¡Dale sabor! Usa jengibre, ajo, perejil, cilantro, oregano, canela, paprika y cúrcuma para darle sabor a los alimentos sin utilzar sal. Aquí una lista de alimentos ‘fáciles' para comenzar BLW:\n    Primeros alimentos: Aguacate*, Plátano*, Mango*, Carne de res, cordero o puerco**, Pollo**, Manzana bien cocida sin cáscara, Zanahoria cocida, Calabacita cocida, Papa cocida o a la francesa (al horno o fritas en mantequilla no aceite), Huevo revuelto,\n    Avena fortificada con hierro**, Pasta, Hummus**, Pan tostado, Pan francés, Frijoles machacados**, Hígado rallado o pate**, Robalo, sardinas, arenque, trucha arcoiris, salmón, huachinango, curbina, carpa y mero entre otros**, Yogur sin azúcar ** Comida\n    alta en hierro. Los alimentos más comunes son la carne, el pescado y las aves. Pero aquí tenemos una lista con más alimentos. *A los alimentos ‘resbalosos’ como el aguacate, plátano y mango por ejemplo, les puedes dejar la cascara para que sea más\n    fácil agarrarlos. Al plátano lo puedes dejar mitad con cáscara y mitad sin, permitiendo a tu bebé de agarrar la parte de cáscara y probar la parte sin cáscara. Al mango y aguacate los puedes partir en rebanadas e igualmente dejarles la cáscara por\n    fuera. El yogur es preferible sin azúcar, ni frutas, ni purés para endulzarle. El gusto por lo endulzado es una preferencia que desarrollamos después por la comida endulzada, pero tu bebé es nuevo y el yogur sencillo le gustará mucho. Es lo mejor\n    y más sano."
 }
+
+
+{
+  "recipe-links": [
+    {
+      "path": "/pages/mac_and_cheese",
+      "image": {
+        "source": "/assets/Recetas/Mac 650.jpg"
+      },
+      "recipe-title": "Muffins Mac & Cheese"
+    },
+    {
+      "path": "/pages/trufas_cocoa",
+      "image": {
+        "source": "/assets/Recetas/Trufas 4.jpg"
+      },
+      "recipe-title": "Trufas Cocoa y Almendras"
+    },
+    {
+      "path": "/pages/croquetas_atun",
+      "image": {
+        "source": "/assets/Recetas/Croquetas 8.jpg"
+      },
+      "recipe-title": "Croquetas de Atún"
+    },
+    {
+      "path": "/pages/muffins_platano",
+      "image": {
+        "source": "/assets/Recetas/Platano 8.jpg"
+      },
+      "recipe-title": "Muffins de Plátano"
+    },
+    {
+      "path": "/pages/agua_de_sabor",
+      "image": {
+        "source": "/assets/Recetas/Agua 4.jpg"
+      },
+      "recipe-title": "Agua de sabor"
+    },
+    {
+      "path": "/pages/carne_borgona",
+      "image": {
+        "source": "/assets/Recetas/Boeuf Bourg 8.jpg"
+      },
+      "recipe-title": "Boeuf Bourguignon"
+    },
+    {
+      "path": "/pages/ratatouille",
+      "image": {
+        "source": "/assets/Recetas/Ratatouille 3.jpg"
+      },
+      "recipe-title": "Ratatouille"
+    },
+    {
+      "path": "/pages/hachis_parmentier",
+      "image": {
+        "source": "/assets/Recetas/Hachis Parm 7.jpg"
+      },
+      "recipe-title": "Hachis Parmentier"
+    },
+    {
+      "path": "/pages/muffins_calabacita",
+      "image": {
+        "source": "/assets/Recetas/Muf Calabacita 8.jpg"
+      },
+      "recipe-title": "Muffins de Calabacita"
+    },
+    {
+      "path": "/pages/tortitas_garbanzo",
+      "image": {
+        "source": "/assets/Recetas/Chickpea patties 7.jpg"
+      },
+      "recipe-title": "Tortitas de garbanzo"
+    },
+    {
+      "path": "/pages/salsas_sencillas",
+      "image": {
+        "source": "/assets/Recetas/Salsas_mexicanas.jpg"
+      },
+      "recipe-title": "Salsas super sencillas"
+    },
+    {
+      "path": "/pages/pure_datiles",
+      "image": {
+        "source": "/assets/Recetas/Pure datiles 5.jpg"
+      },
+      "recipe-title": "Puré de dátiles"
+    },
+    {
+      "path": "/pages/super_hamburguesitas",
+      "image": {
+        "source": "/assets/Recetas/Hamburguesas 6.jpg"
+      },
+      "recipe-title": "Super hamburguesitas"
+    },
+    {
+      "path": "/pages/risotto_berenjena",
+      "image": {
+        "source": "/assets/Recetas/Risotto Berenjena 11.jpg"
+      },
+      "recipe-title": "Risotto"
+    }
+  ]
+}
