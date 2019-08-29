@@ -276,3 +276,52 @@
   },
   "description": "La anemia, por falta de hierro, es uno de los problemas más frecuentes de los niños durante el crecimiento. El hierro es importante en la producción de la hemoglobina, las células rojas de la sangre responsables de transportar el oxígeno, y la mioglobina,\n    un pigmento que almacena el oxígeno en los músculos. La falta de hierro puede causar anemia, lo cual puede resultar en fatiga, debilidad e irritabilidad. Puesto que el hierro también afecta al desarrollo cerebral, la anemia puede causar problemas\n    duraderos en el desarrollo cognitivo. Una deficiencia de hierro severa, puede poner en riesgo la vida. Alrededor de los 6 meses de edad se recomienda comenzar con alimentos altos en hierro. 6 meses mas o menos, el hierro puede comenzar a faltar. Esto\n    es particularmente cierto si tu bebé fue de bajo peso al nacer, prematuro o si la mamá tuvo o tiene deficiencia de hierro. Entre los 7 y 12 meses de edad, se recomiendan 11mg de hierro darios. La fórmula suele tener 12 mg por litro, pero varía segun\n    la marca. Algunos pediatras han expresado reservaciones acerca de BLW porque no saben si al complementar la dieta de esta manera se puedan llegar a la dosis recomendada. Pero comenzar con papillas y purés o de cualquier otra manera, resulta igual\n    de difícil si no se comienza con alimentos altos en hierro. Evidencia de esto es la epidemia de anemia por deficiencia de hierro que existe en México donde ocurre en el 38% de niños entre 12 a 23 meses de edad. Entonces es muy importante comenzar\n    a ofrecer alimentos altos en hierro sin importar de que manera comienzas con sólidos. Comúnmente los cereales fortificados con hierro suelen ser el estándar para asegurar una dieta con suficiente hierro pero estos son esencialmente una combinación\n    de agua, aceites vegetales y al menos 4 o hasta 6 distintos tipos de azúcar. En su lugar busca avena fortificada con hierro que suele tener menos cantidades de azúcares y un mayor valor nutritivo. A continuación hay una lista de comida alta en hierro.\n    La carne roja, aves y pescado son la mejor opción. Trata de ofrecer una proteína diaria. Puedes hacer patés o cremas y untarlas en pan integral o ofrecerlos como dip y dejar que tu bebé use sus manos (probablemente) o frutas y vegetales para comérselo.\n    Alimentos altos en Hierro: Carne de res, cordero o puerco sin hueso, Aves sin hueso, Huevo (buena fuente de proteína, 6 o 7 g por huevo pero el cuerpo no absorbe el hierro que contiene el huevo facilmente), Hummus*, Frijoles machacados*, Garbanzos,\n    Hígado rallado o paté, Avena fortificada con hierro, Espinaca y col rizada (kale en ingles)*, Lentejas*, Chícharos*, Robalo, sardinas, arenque, trucha arcoiris, salmón, huachinango, curbina, carpa y mero entre otros Además es importante saber que\n    existen dos tipos de hierro: el hémico (de origen animal) y el no hémico* (de origen vegetal) y se absorben en un 20% a 30% y 3% a 8% respectivamente. Para mejorar la absorción del hierro no hémico siempre es bueno consumir al mismo tiempo alimentos\n    que contengan vitamina C y evitar aquellos que inhiben la absorción como la leche de vaca y sus derivados, el salvado de trigo y los productos de soya. Alimentos con vitamina C: Brócoli, Cítricos, Pimientos (particularmente el rojo), Fresas, Jitomates,\n    Kiwi, Papaya, Coliflor, Col rizada (kale en inglés)."
 }
+
+(Table 1 for Cantidades)
+[
+  {
+    "Edad": "Al principio",
+    "Cantidad por comida": "0 a 1 cucharadita",
+    "Veces al dia": "1 comida"
+  },
+  {
+    "Edad": "para el 8vo mes",
+    "Cantidad por comida": "2 a 4 cucharadas",
+    "Veces al dia": "2 a 3 comidas"
+  },
+  {
+    "Edad": "9 a 11 meses",
+    "Cantidad por comida": "3 a 4 cucharadas",
+    "Veces al dia": "3 comidas y tal vez 1 snack"
+  },
+  {
+    "Edad": "12 a 23 meses",
+    "Cantidad por comida": "900 - 1000 calorías (ver tabla de abajo)",
+    "Veces al dia": "3 comidas y 1 o 2 snacks"
+  }
+]
+
+
+(Table 2 for Cantidades)
+[
+  {
+    "Cantidad": "1 taza de fruta",
+    "Equivalente": "1/2 manzana, 32 uvas (cortadas vertical), 1 mandarina, 1 platano = 1 taza aprox"
+  },
+  {
+    "Cantidad": "1 taza de verduras",
+    "Equivalente": "12 zanahorias mini, 1 camote, 18 ejotes, 10 cabecitas de brocoli = 1 taza aprox"
+  },
+  {
+    "Cantidad": "1.5 porciones o 12 gramos de proteína*",
+    "Equivalente": "1 huevo o 1/2 taza de lentejas o frijoles o 20-24 almendras** = 1 porción"
+  },
+  {
+    "Cantidad": "2 porciones o 56 gramos de granos",
+    "Equivalente": "1/2 taza de pasta integral o 1 rebanada de pan 100% integral = 1 porción"
+  },
+  {
+    "Cantidad": "500 mg de calcio",
+    "Equivalente": "1 taza de yogur sin azucar = 450 mg, 1 taza de garbanzo o 20-24 almendras** = 80 mg, 2 tortillas de maiz = 85 mg, 1 taza de kiwi crudo = 70 mg, 1 taza de leche de vaca entera = 300 mg, 28 gramos de queso gruyere o suizo = 270 mg"
+  }
+]
