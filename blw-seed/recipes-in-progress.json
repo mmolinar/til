@@ -524,8 +524,56 @@
           "text": "Son ideales para congelar. Duran hasta 1 mes en el congelador y asi ya tienes algo listo y nutritivo cuando quieras.",
           "position": "11"
       }
-    ],
-}
+    ]
+},
 
+{
+  "title": "Trufas de Cocoa y Almendras",
+  "description": [
+    "¡Si se lo vas a dar a niños menores de 5 años, recuerda que los alimentos redondos son un riesgo de ahogamiento! Entonces puedes hacerlas hamburguesitas.",
+    "*O ablandarlas con agua muy caliente",
+    "**El plátano entre más maduro mejor. Las manchas cafés son señal de que está maduro. Es cuando más cantidad de vitaminas y minerales contiene además de las enzimas que ayudan a la digestión.",
+    "Dátiles, almendras y cocoa son los ingredientes principales de estas trufas. Son una verdadera delicia. Personalmente las dejo en el congelador y me como una cuando tengo un antojo de algo dulce. Y tus hijos pueden comerse varias bolitas porque tienen\n    mucho hierro, fibra, proteína, potasio, vitamina E, vitamina B y mucho más. Sólo ten en cuenta que también tienen muchas calorías.",
+    "La porción recomendada diaria de almendras y frutos secos para niños es de 28 gramos (o 23 almendras) y 1/4 taza (o 4-5 dependiendo del tamaño del dátil). Esto se traduce en aproximadamente 100 gramos de trufas al día. Cuántas trufas depende de qué tan\n    grandes las hiciste, pero son tan 'chocolatosas' y dulces que una o dos te quitarán el antojo."
+  ],
+  "ingredients": [
+      "1⅔ tazas (280 gramos) de almendras enteras sin pelar", "1⅓ taza (225 gramos) dátiles a temperatura ambiente*", "1 plátano grande** (100 gramos)", "⅓ taza (25 gramos) cocoa sin endulzar", "1 cucharadita de extracto de vainilla", "Una pizca de sal (o sin sal si es\n    para menores de 12 meses)"
+      ],
+  "directions": [
+      {
+        "text": "Si tienes un procesador de alimentos grande, echa todos los ingredientes menos el plátano ahi y pulsa hasta tener una masa. Luego incorpora el plátano, lo puedes machar con el tenedor. Cuando tu masa sea uniforme haz bolitas. Si esta muy suave, metela\n    al refri 30 minutos y luego haz bolitas.",
+        "image": "/assets/Recetas/Trufas.jpg",
+        "position": "1"
+      },
+      {
+        "text": "Si tienes un procesador pequeño, puedes trabajar en porciones o cada ingrediente individualmente. Asi es como la hice esta vez. Pulsa las almendras hasta que sean casi polvo y échalas en un bol.",
+        "image": "/assets/Recetas/Trufas 2.jpg",
+        "position": "2"
+      },
+      {
+        "text": "En el mismo procesador pica los dátiles y mezclalos con las almendras. Lo puedes hacer con tus manos o en el procesador.",
+        "image": "/assets/Recetas/Trufas 3.jpg",
+        "position": "3"
+      },
+      {
+        "text": "Agregar el resto de los ingredientes y mezclar hasta que tengas una masa uniforme. Si está un poco seca échale una cucharadita de agua. La consistencia debe ser suficientemente firme y húmeda para hacer bolitas. Si le falta un poco de firmeza mete la\n    masa al refri 30 mins pero normalmente no es necesario.",
+        "image": "/assets/Recetas/Trufas 5.jpg",
+        "position": "4"
+      },
+      {
+        "text": "Haz bolitas del tamaño que quieras.",
+        "image": "/assets/Recetas/Trufas 4.jpg",
+        "position": "5"
+      },
+      {
+        "text": "Personalmente me gusta meterlas al congelador porque tienen una consistencia deliciosa. Pero las puedes dejar en el refri si prefieres.",
+        "position": "6"
+      },
+      {
+        "text": "En el congelador pueden durar hasta 2 meses (si no te las comes antes) o hasta 3 días en el refri.",
+        "position": "7"
+      }
+  ]
+},
 
 ]
