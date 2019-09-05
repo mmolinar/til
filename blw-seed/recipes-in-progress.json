@@ -122,46 +122,55 @@
        },
     },
   ],
-}
-
-
+},
+  
 {
   "title": "Ideas de Comida",
-  "main_image": [
+  "main_image": {
+    "path": "/assets/9 Plates with numbers.jpg"
+  },
+  "descriptions": [
     {
-      "path": "/assets/9 Plates with numbers.jpg"
+      "text": "¿Buscas inspiración para la hora de comer? Aquí hay algunas ideas: algunas nuevas, otras con distinta presentación pero ojalá encuentres algo rico que les guste a tus comelones. Aunque todo se lo puedes ofrecer a tu bebé a partir de los 6 meses de edad\n    si ya cumple con los requisitos, debes ajustar tanto las porciones como el tamaño de los alimentos de acuerdo a su edad."
     },
     {
-      "path": "/assets/Platos/Mac & Cheese small.jpg"
+      "text": "Muffins de Macaroni and Cheese Hacer Mac & Cheese (como le dicen en USA) es fácil, rápido y nutritivo. Pasta, queso, leche y especias\n    son ingredientes sanos y nutritivos. Esta receta también incluye un huevo y avena lo que la hace una excelente fuente de proteína y hierro respectivamente. Acompañarlo con brócoli al vapor y rebanadas de sandía, ambas altas en vitamina C para ayudar\n    la absorción de hierro.",
+      "image": "/assets/Platos/Mac & Cheese small.jpg"
     },
     {
-      "path": "/assets/Platos/French Toast small.jpg"
+      "text": "Pan francés (receta próximamente) Pan, huevo, jengibre, canela y... zanahoria para darle aumentar su valor nutricional. El huevo es buena fuente de proteína. Lo puedes acompañar con una ricas fresas, que tienen mucha vitamina\n    C y unas rebanadas de queso, fuente de Calcio.",
+      "image": "/assets/Platos/French Toast small.jpg"
     },
     {
-      "path": "/assets/Platos/Enchiladas Small.jpg"
+      "text": "Enchiladas para bebé (receta próximamente) Nuestros comelones más pequeños (a partir de los 6 meses si ya cumple con los requisitos) pueden empezar a probar este platillo tradicional que además de delicioso,\n    es una excelente comida: tortilla de maíz, queso y salsa de tomate verde (tomates verdes cocinados con un poco de cebolla y licuados). Aquí el hierro está en el acompañamiento: los frijoles! Y las rebanadas de aguacate proporcionan la vitamina C entre\n    muchos otros nutrientes.",
+      "image": "/assets/Platos/Enchiladas Small.jpg"
     },
     {
-      "path": "/assets/Platos/Hachi small.jpg"
+      "text": "Hachis Parmentier Receta tradicional francesa: carne molida y puré de papa. La carne molida es la proteína que proporciona el hierro. Es una comida deliciosa que seguramente se convertirá en una favorita de toda la familia.\n    No necesita mucho acompañamiento ya que el platillo lleva zanahoria y puré de papa. Aquí lo acompaña un poco de jícama (para mas grandes) y zanahoria cocida. Y la piña (vitamina C) cocinada con un toque de canela. Si le das la piña a bebés mas pequeños\n    cortala en tiras largas.",
+      "image": "/assets/Platos/Hachi small.jpg"
     },
     {
-      "path": "/assets/Platos/Boeuf Bourgignon small.jpg"
+      "text": "Boeuf Bourguignon Otra receta tradicional francesa, de la región de Borgoña. Lleva carne, papas y zanahorias. Tanto la carne como la quinoa que lo acompaña son ricas en hierro. La quinoa contiene 16 aminoácidos, incluyendo\n    todos los esenciales, además de fibra y antioxidantes. Como postre hay unas uvas cortadas verticalmente ya que son un riesgo de ahogamiento hasta los 5 años de edad.",
+      "image": "/assets/Platos/Boeuf Bourgignon small.jpg"
     },
     {
-      "path": "/assets/Platos/Ratatouille small.jpg"
+      "text": "Sandwichitos y Ratatouille El clásico sandwich de jamón con queso, presentados de\n    una manera tierna y original. Con pan 100% integral y un buen queso, es una comida rapida y saludable. Asegúrate que sea un buen queso y no del tipo Kraft y co. Una rebanada de jamón proporciona aproximadamente 5g de proteína (se recomienda 1g de\n    proteína por kilo que pese tu hijo). La Ratatouille, un clásico francés: pimientos rojos y calabacitas. Es una increíble fuente de vitamina C.",
+      "image": "/assets/Platos/Ratatouille small.jpg"
     },
     {
-      "path": "/assets/Platos/Salmon small.jpg"
+      "text": "Salmón Agriducle (receta próximamente) El salmón es una excelente fuente de proteína y además de ser rico\n    en Omega-3 y Omega-6, también es excelente fuente de vitaminas (B12, D, B3) y minerales como Selenio y Fósforo entre otros. Lo acompañan unos lindos \"listones\" de calabacitas (vitamina C) y zanahorias cocidas (vitamina A). Con un pelador, pela hacia\n    lo largo. Las puedes cocinar con jengibre y ajo para seguir con el toque oriental. De postre unas blueberries, riquísimas en antioxidantes y fibra.",
+      "image": "/assets/Platos/Salmon small.jpg"
     },
     {
-      "path": "/assets/Platos/Rollitos small.jpg"
+      "text": "Rollitos de jamón y queso (receta próximamente) Rollitos o 'makis' es una manera diferente y divertida\n    de comer jamón (proporcion hierro) y queso. Tomas dos rebanadas de jamón y una de queso, lo haces un rollo apretado y luego lo cortas horizontalmente o los dejas en rollos si es para bebes. Las jícamas (para mas grandes) y pepinos, son fuentes de\n    vitamina C, vitamina K y fibra, y también Potasio. Las frambuesas aportan una dosis de antioxidantes entre otras vitaminas y minerales.",
+      "image": "/assets/Platos/Rollitos small.jpg"
     },
     {
-      "path": "/assets/Platos/Pasta small.jpg"
+      "text": "Pasta Pomodoro (receta próximamente) Esta pasta con salsa de jitomate es una receta deliciosa que tiene zanahoria\n    y apio. Estos sirven para darle un sabor exquisito y aumentar el valor nutricional de esta receta. Una o dos rebanaditas de jamón como acompañamiento proporciona la proteína y la piña las vitaminas C, B6, B1 y fibra. Si le das la piña a bebés mas\n    pequeños cortala en tiras largas.",
+      "image": "/assets/Platos/Pasta small.jpg"
     }
-  ],
-  "description": "¿Buscas inspiración para la hora de comer? Aquí hay algunas ideas: algunas nuevas, otras con distinta presentación pero ojalá encuentres algo rico que les guste a tus comelones. Aunque todo se lo puedes ofrecer a tu bebé a partir de los 6 meses de edad\n    si ya cumple con los requisitos, debes ajustar tanto las porciones como el tamaño de los alimentos de acuerdo a su edad. Muffins de Macaroni and Cheese Hacer Mac & Cheese (como le dicen en USA) es fácil, rápido y nutritivo. Pasta, queso, leche y especias\n    son ingredientes sanos y nutritivos. Esta receta también incluye un huevo y avena lo que la hace una excelente fuente de proteína y hierro respectivamente. Acompañarlo con brócoli al vapor y rebanadas de sandía, ambas altas en vitamina C para ayudar\n    la absorción de hierro. Pan francés (receta próximamente) Pan, huevo, jengibre, canela y... zanahoria para darle aumentar su valor nutricional. El huevo es buena fuente de proteína. Lo puedes acompañar con una ricas fresas, que tienen mucha vitamina\n    C y unas rebanadas de queso, fuente de Calcio. Enchiladas para bebé (receta próximamente) Nuestros comelones más pequeños (a partir de los 6 meses si ya cumple con los requisitos) pueden empezar a probar este platillo tradicional que además de delicioso,\n    es una excelente comida: tortilla de maíz, queso y salsa de tomate verde (tomates verdes cocinados con un poco de cebolla y licuados). Aquí el hierro está en el acompañamiento: los frijoles! Y las rebanadas de aguacate proporcionan la vitamina C entre\n    muchos otros nutrientes. Hachis Parmentier Receta tradicional francesa: carne molida y puré de papa. La carne molida es la proteína que proporciona el hierro. Es una comida deliciosa que seguramente se convertirá en una favorita de toda la familia.\n    No necesita mucho acompañamiento ya que el platillo lleva zanahoria y puré de papa. Aquí lo acompaña un poco de jícama (para mas grandes) y zanahoria cocida. Y la piña (vitamina C) cocinada con un toque de canela. Si le das la piña a bebés mas pequeños\n    cortala en tiras largas. Boeuf Bourguignon Otra receta tradicional francesa, de la región de Borgoña. Lleva carne, papas y zanahorias. Tanto la carne como la quinoa que lo acompaña son ricas en hierro. La quinoa contiene 16 aminoácidos, incluyendo\n    todos los esenciales, además de fibra y antioxidantes. Como postre hay unas uvas cortadas verticalmente ya que son un riesgo de ahogamiento hasta los 5 años de edad. Sandwichitos y Ratatouille El clásico sandwich de jamón con queso, presentados de\n    una manera tierna y original. Con pan 100% integral y un buen queso, es una comida rapida y saludable. Asegúrate que sea un buen queso y no del tipo Kraft y co. Una rebanada de jamón proporciona aproximadamente 5g de proteína (se recomienda 1g de\n    proteína por kilo que pese tu hijo). La Ratatouille, un clásico francés: pimientos rojos y calabacitas. Es una increíble fuente de vitamina C. Salmón Agriducle (receta próximamente) El salmón es una excelente fuente de proteína y además de ser rico\n    en Omega-3 y Omega-6, también es excelente fuente de vitaminas (B12, D, B3) y minerales como Selenio y Fósforo entre otros. Lo acompañan unos lindos \"listones\" de calabacitas (vitamina C) y zanahorias cocidas (vitamina A). Con un pelador, pela hacia\n    lo largo. Las puedes cocinar con jengibre y ajo para seguir con el toque oriental. De postre unas blueberries, riquísimas en antioxidantes y fibra. Rollitos de jamón y queso (receta próximamente) Rollitos o 'makis' es una manera diferente y divertida\n    de comer jamón (proporcion hierro) y queso. Tomas dos rebanadas de jamón y una de queso, lo haces un rollo apretado y luego lo cortas horizontalmente o los dejas en rollos si es para bebes. Las jícamas (para mas grandes) y pepinos, son fuentes de\n    vitamina C, vitamina K y fibra, y también Potasio. Las frambuesas aportan una dosis de antioxidantes entre otras vitaminas y minerales. Pasta Pomodoro (receta próximamente) Esta pasta con salsa de jitomate es una receta deliciosa que tiene zanahoria\n    y apio. Estos sirven para darle un sabor exquisito y aumentar el valor nutricional de esta receta. Una o dos rebanaditas de jamón como acompañamiento proporciona la proteína y la piña las vitaminas C, B6, B1 y fibra. Si le das la piña a bebés mas\n    pequeños cortala en tiras largas."
-}
-
+  ]
+},
 
 {
   "title": "Reglas de Seguridad",
