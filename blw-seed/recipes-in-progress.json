@@ -629,4 +629,48 @@
   ]
 },
 
+{
+  "title": "Muffins de Plátano",
+  "main_image":"/assets/Recetas/Platano 1.jpg",
+  "ingredients": [
+    "3 plátanos muy maduros **, 1 huevo, 1½ tazas de harina, ⅓ taza de mantequilla derretida, ½ taza de puré de dátiles *, 1 cucharadita de bicarbonato de sodio, 1 cucharadita de polvo de hornear, ½ cucharadita de sal,",
+    "*Si no tienes puré de dátiles lo puedes hacer con ¾ taza de azúcar pero no tendrá el mismo valor nutricional. El puré de dátiles es super fácil de hacer y una maravilla nutricional, aqui la receta.",
+    "**El plátano entre más maduro mejor. Las manchas cafés son señal de que está maduro. Es cuando más cantidad de vitaminas y minerales contiene además de las enzimas que ayudan a la digestión."
+  ],
+  "descriptions": [
+    "Esta es una receta básica y fácil de muffins de plátano. Puedes agregarle ⅓ taza de cocoa sin endulzar para hacerlos de chocolate o canela o nueces. Puedes hacer muchas combinaciones. Por eso esta receta es tan buena porque es una receta de base con la\n    que puedes experimentar.",
+    "Voy a hacerla con avena molida en lugar de harina para aumentar su valor nutricional y les aviso que tal salen."
+  ],
+  "directions": [
+    {
+      "text": "Precalentar el horno a 180°C.",
+    },
+    {
+      "text": "Mezlca los ingredientes secos en un bol.",
+      "image": "/assets/Recetas/Platano 2.jpg"
+    },
+    {
+      "text": "En otro bol machaca los plátanos con un tenedor.",
+      "image": "/assets/Recetas/Platano 3.jpg"
+    },
+    {
+      "text": "Incorpora el huevo y el puré de dátiles a los plátanos y mezcla bien. Enseguida agrega la mantequilla derretida.",
+      "image": "/assets/Recetas/Platano 4.jpg"
+    },
+    {
+      "text": "Finalmente incorpora lentamente los ingredientes secos a la mezcla de plátano y revuelve hasta que la mezcla que lisa y uniforme.",
+      "image": "/assets/Recetas/Platano 5.jpg"
+    },
+    {
+      "text": "Echa la mezcla en los moldes de muffins ⅔ de su capacidad y hornea 25 a 30 minutos. Si estás haciendo mini muffins hornéalos 10 a 15 minutos.",
+      "image": "/assets/Recetas/Platano 6.jpg"
+    },
+    {
+      "text": "Puedes saber que están listos si el centro del muffin rebota cuando lo presionas ligeramente con tu dedo.",
+      "image": "/assets/Recetas/Platano 7.jpg",
+      "image": "/assets/Recetas/Platano 8.jpg"
+    }
+  ]
+},
+
 ]
