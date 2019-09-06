@@ -576,4 +576,57 @@
   ]
 },
 
+{
+  "title": "Croquetas de Atún",
+  "main_image": "/assets/Recetas/Croquetas 1 (1).jpg",
+  "description": [
+    "Esta receta es fácil y deliciosa. Si tienes niños mayores, (de más de 3 años) las puedes hacer bolitas pequeñas y ofrecerlas como snack super nutritivo. Los alimentos redondos como los jitomates cherry son un riesgo de ahogamiento y se recomienda cortarlos\n    verticalmente hasta que tengan 6 años de edad. En este caso, se los puedes ofreces a partir de los 3 años porque su textura es diferente. Es suave y se deshace fácilmente al aplastarla entre tu pulgar e índice, contrario a las uvas o jitomates\n    cherry.",
+    "Si quieres hacer las tradicionales croquetas ovaladas, en el paso 4 omite la avena y en lugar déjala al lado. Pasas al paso 5, haces las croquetas con forma tradicional y luego las capeas con la avena molida. Después las pones en un sartén con un poco\n    de aceite de oliva y fries hasta que estén doradas por todas partes. No agregues aceite hasta que se haya consumido todo para evitar que absorban demasiado aceite."
+  ],
+  "ingredients": [
+      "1/2 taza (80g) de avena*, 1 huevo batido, 1 manojo de perejil o cilantro (lo que prefieras), 2 latas de atún*, 4 papas medianas peladas y machacadas, ½ cucharadita de jengibre, ½ cucharadita de paprika, ½ cucharada de limón",
+      "*La avena es fuente de hierro al igual que el atún. Y al combinarla con fuentes de vitamina C (limón y cilantro o perejil) ayuda a la absorción del hierro en el cuerpo."
+      ],
+  "directions": [
+    {
+      "text": "1. Precalienta el horno a 180°C (356°F).",
+      "position": "1"
+    },
+    {
+      "text": "2. Moler la avena unos segundos, no quieres que quede como polvo sino con más textura.",
+      "image": "/assets/Recetas/Croquetas 2.jpg",
+      "position": "2"
+    },
+    {
+      "text": "3. En un bol, mezcla las papas y huevo batido.",
+      "image": "/assets/Recetas/Croquetas 3.jpg",
+      "position": "3"
+    },
+    {
+      "text": "4. Enseguida agrega el atún, cilantro y especias.",
+      "image": "/assets/Recetas/Croquetas 5 (1).jpg",
+      "position": "4"
+    },
+    {
+      "text": "5. Revuelve todo e incorpora la avena y vuelve a mezclar hasta que quede una mezcla homogénea.",
+      "image": "/assets/Recetas/Croquetas 6.jpg",
+      "position": "5"
+    },
+    {
+      "text": "6. Haz las croquetas en la forma que quieras, ovaladas (ver el comentario de arriba) o como tortitas. Yo las hice como tortitas pero pueden ser bolitas o las tradicionales croquetas. Si las haces bolitas (excelente como snack para picar para niños grandes)\n    recuerda que son un riesgo de ahogamiento para niños menores de 3 años. Por eso las hice tortitas porque era para un bebé de 8 meses y otro de 3.5 años, asi podian comer lo mismo los dos.",
+      "position": "6"
+    },
+    {
+      "text": "7. Pon un poco de aceite en una charola que va al horno y coloca las tortitas en ella. Luego ponles un poquito de aceite por encima a cada una y metelas al horno 15 a 20 minutos.",
+      "image": "/assets/Recetas/Croquetas 7.jpg",
+      "position": "7"
+    },
+    {
+      "text": "8. Sirve cuando estén tibias si es para un bebé o calientes para los demás.",
+      "image": "/assets/Recetas/Croquetas 8.jpg",
+      "position": "8"
+    }
+  ]
+},
+
 ]
