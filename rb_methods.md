@@ -74,3 +74,40 @@ age = 26
 puts age.respond_to?(:next)
 # Prints true because age is an integer so will respond to .next
 ```
+
+### .collect
+Takes a block and applies the expression in the block to every element in an array without changing the initial array. 
+```
+my_nums = [1, 2, 3]
+my_nums.collect { |num| num ** 2 }
+# ==> [1, 4, 9]
+my_nums
+# ==> [1, 2, 3]
+
+```
+### .collect!
+It mutates the original array instead of creating a new one.
+```
+my_nums.collect! { |num| num ** 2 }
+# ==> [1, 4, 9]
+my_nums
+# ==> [1, 4, 9]
+```
+
+### .floor
+Rounds a float (a number with a decimal) down to the nearest integer.
+
+### .is_a?
+Which returns true if an object is the type of object named and false otherwise:
+```
+:hello.is_a? Symbol
+# ==> true
+```
+
+### .select
+
+##  Differences between map, collect, select and each
+.each returns the original object it was called on because it's really used for its side effects and not what it returns
+.each_with_index passes not just the current item but whatever position in the array it was located in.
+.select returns a new object (e.g. array) filled with only those original items where the block you gave it returned true
+.map returns a new array filled with whatever gets returned by the block each time it runs.
