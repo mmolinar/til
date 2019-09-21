@@ -158,3 +158,81 @@ Takes an enumerable collection and returns a 2-element array consisting of the m
 # pets with fewest/most legs:
 @inventory.minmax_by(&:legs).map(&:name).join(', ')  #=> ["fish", "scorpion"]
 ```
+## .first
+Takes an enumerable collection and optional number of elements. If no element count is given, it returns the first element in the collection. If a number is given, it returns that many elements from the beginning of the collection. Careful! This can be tricky, since it returns different types of objects (scalars or arrays) depending on the paramenters given.
+
+```
+def first list, n=nil
+  if n == nil
+    return list.first
+  else
+    return list.first(n)
+  end
+end
+
+OR
+
+def first list, n=nil
+  n ? list.first(n) : list.first
+end
+```
+
+## .drop_while
+Takes an enumerable collection and a block, skips elements until the given block returns true, and then returns the rest of the collection.
+
+
+## .each_cons
+Takes an enumerable collection and iterates through a cascading list of elements. For instance, a list of [1, 2, 3, 4] called with each_cons(2) would yield [1,2], [2,3], and finally [3,4].
+```
+# Pet inventory by name: ['dog', 'cat', 'fish', 'scorpion', 'beetle', 'monkey', 'rock']
+ 
+# pets in cascading groups of two:
+inventory.each_cons(2){|pets| p pets.map(&:name) }
+ 
+# output:
+# ["dog", "cat"]
+# ["cat", "fish"]
+# ["fish", "scorpion"]
+# ["scorpion", "beetle"]
+# ["beetle", "monkey"]
+# ["monkey", "rock"]
+ 
+# pets in cascading groups of three:
+inventory.each_cons(3){|pets| p pets.map(&:name) }
+ 
+# output:
+# ["dog", "cat", "fish"]
+# ["cat", "fish", "scorpion"]
+# ["fish", "scorpion", "beetle"]
+# ["scorpion", "beetle", "monkey"]
+# ["beetle", "monkey", "rock"]
+```
+## .count
+Takes an enumerable collection and counts how many elements match the given criteria. If no parameters are given, it returns the total number of elements in the collection. If a parameter is given, it returns the number of elements that match the given parameter. If a block is supplied, this method returns the total number of elements for which the block returned true.
+```
+@numbers = [1, 0, 3, 2, 5, 4, 7, 6, 9, 8]
+ 
+# count all numbers
+@numbers.count  
+=> 10
+ 
+# count even numbers
+@numbers.count(&:even?)  
+=> 5
+ 
+# count divisible by three
+@numbers.count{|number| number % 3 == 0}  
+=> 4
+
+# count pets:
+@inventory.count  
+=> 7
+ 
+# count in-stock pets:
+@inventory.count(&:in_stock?)  
+=> 6
+ 
+# count pets with four legs:
+@inventory.count{|pet| pet.legs == 4}  
+=> 2
+```
