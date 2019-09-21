@@ -108,9 +108,53 @@ Which returns true if an object is the type of object named and false otherwise:
 Selects a set of numbers or items of the array that correspond to the characteristics you are looking for. 
 
 ##  Differences between map, collect, select and each
-#### .each returns the original object it was called on because it's really used for its side effects and not what it returns
-#### .each_with_index passes not just the current item but whatever position in the array it was located in.
-#### .select returns a new object (e.g. array) filled with only those original items where the block you gave it returned true
-#### .map returns a new array filled with whatever gets returned by the block each time it runs.
+#### .each 
+returns the original object it was called on because it's really used for its side effects and not what it returns
+#### .each_with_index 
+passes not just the current item but whatever position in the array it was located in.
+#### .select 
+returns a new object (e.g. array) filled with only those original items where the block you gave it returned true
+#### .map 
+returns a new array filled with whatever gets returned by the block each time it runs.
+
+### .include? (.member?)
+Test whether a given item is in the enumerable collection.
+```
+def include? array, item
+  array.include?(item)
+end
+
+OR
+
+def include? array, item
+  array.include?(item) ? true : false
+end
+
+OR
+
+def include?(array, item)
+  if array.include?(item)
+    return true
+  else 
+    return false
+  end
+end
+```
+## .minmax_by
+Takes an enumerable collection and returns a 2-element array consisting of the minimum and maximum values, as calculated via the given block.
+```
+@numbers = [1, 0, 3, 2, 5, 4, 7, 6, 9, 8]
+ 
+# lowest/highest numbers:
+@numbers.minmax_by{|number| number}  #=> [0, 9]
+ 
+# lowest/highest numbers when negative:
+@numbers.minmax_by{|number| 0 - number}  #=> [9, 0]
 
 
+# pets with minimum/maximum quantity:
+@inventory.minmax_by(&:quantity).map(&:name).join(', ')  #=> ["rock", "beetle"]
+ 
+# pets with fewest/most legs:
+@inventory.minmax_by(&:legs).map(&:name).join(', ')  #=> ["fish", "scorpion"]
+```
