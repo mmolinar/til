@@ -246,3 +246,13 @@ Takes an enumerable collection and counts how many elements match the given crit
 @inventory.count{|pet| pet.legs == 4}  
 => 2
 ```
+
+## .zip
+Combines more than one list in a zipping fashion.
+```
+animals = ["dogs", "ducks", "seals"]
+complexions = ["furry", "feathery", "slippery"]
+ 
+animals.zip(complexions)
+    #=> [["dogs", "furry"], ["ducks", "feathery"], ["seals", "slippery"]]
+```
