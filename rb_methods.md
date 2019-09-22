@@ -75,7 +75,7 @@ puts age.respond_to?(:next)
 # Prints true because age is an integer so will respond to .next
 ```
 
-### .collect
+### .collect or .map
 Takes a block and applies the expression in the block to every element in an array without changing the initial array. 
 ```
 my_nums = [1, 2, 3]
@@ -83,6 +83,16 @@ my_nums.collect { |num| num ** 2 }
 # ==> [1, 4, 9]
 my_nums
 # ==> [1, 2, 3]
+
+@numbers = [1, 0, 3, 2, 5, 4, 7, 6, 9, 8]
+ 
+# all numbers multiplied by two:
+@numbers.map{|number| number * 2}
+  #=> [2, 0, 6, 4, 10, 8, 14, 12, 18, 16]
+ 
+# the even status for all numbers:
+@numbers.map(&:even?)
+    #=> [false, true, false, true, false, true, false, true, false, true]
 
 ```
 ### .collect!
