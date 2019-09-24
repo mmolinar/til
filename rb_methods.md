@@ -259,3 +259,23 @@ animals.zip(complexions)
 
 ## .gsub (or .gsub!)
 Provide another quick and easy way of replacing a substring with another string. They take two arguments: the search string and the replacement string. The gsub method returns a modified string, leaving the original string unchanged, whereas the gsub! method directly modify the string object on which the method was called.
+```
+myString = "Welcome to PHP Essentials!"
+=> "Welcome to PHP Essentials!"
+
+myString.gsub("PHP", "Ruby")
+=> "Welcome to Ruby Essentials!"
+```
+
+## .replace
+Replace an entire string instead of just a substring.
+```
+myString = "Welcome to PHP!"
+=> "Welcome to PHP!"
+
+myString.replace "Goodbye to PHP!"
+=> "Goodbye to PHP!"
+```
+
+## .chop
+Removes any last character from the string.
