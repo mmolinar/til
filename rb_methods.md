@@ -256,3 +256,6 @@ complexions = ["furry", "feathery", "slippery"]
 animals.zip(complexions)
     #=> [["dogs", "furry"], ["ducks", "feathery"], ["seals", "slippery"]]
 ```
+
+## .gsub (or .gsub!)
+Provide another quick and easy way of replacing a substring with another string. They take two arguments: the search string and the replacement string. The gsub method returns a modified string, leaving the original string unchanged, whereas the gsub! method directly modify the string object on which the method was called.
