@@ -1,3 +1,13 @@
+### .length
+
+### .downcase
+
+### .split
+Takes in a string and returns an array. If we pass it a bit of text in parentheses, .split will divide the string wherever it sees that bit of text, called a delimiter. The example below splits the 'text' after any ',':
+```
+text.split(',')
+```
+
 ### .times
 Do something a specific number of times
 ```
@@ -128,7 +138,7 @@ returns a new object (e.g. array) filled with only those original items where th
 returns a new array filled with whatever gets returned by the block each time it runs.
 
 ### .include? (.member?)
-Test whether a given item is in the enumerable collection.
+Test whether a given item is in the enumerable collection. Evaluates to true if it finds what it’s looking for and false otherwise.
 ```
 def include? array, item
   array.include?(item)
@@ -150,7 +160,7 @@ def include?(array, item)
   end
 end
 ```
-## .minmax_by
+### .minmax_by
 Takes an enumerable collection and returns a 2-element array consisting of the minimum and maximum values, as calculated via the given block.
 ```
 @numbers = [1, 0, 3, 2, 5, 4, 7, 6, 9, 8]
@@ -168,7 +178,7 @@ Takes an enumerable collection and returns a 2-element array consisting of the m
 # pets with fewest/most legs:
 @inventory.minmax_by(&:legs).map(&:name).join(', ')  #=> ["fish", "scorpion"]
 ```
-## .first
+### .first
 Takes an enumerable collection and optional number of elements. If no element count is given, it returns the first element in the collection. If a number is given, it returns that many elements from the beginning of the collection. Careful! This can be tricky, since it returns different types of objects (scalars or arrays) depending on the paramenters given.
 
 ```
@@ -187,11 +197,11 @@ def first list, n=nil
 end
 ```
 
-## .drop_while
+### .drop_while
 Takes an enumerable collection and a block, skips elements until the given block returns true, and then returns the rest of the collection.
 
 
-## .each_cons
+### .each_cons
 Takes an enumerable collection and iterates through a cascading list of elements. For instance, a list of [1, 2, 3, 4] called with each_cons(2) would yield [1,2], [2,3], and finally [3,4].
 ```
 # Pet inventory by name: ['dog', 'cat', 'fish', 'scorpion', 'beetle', 'monkey', 'rock']
@@ -217,7 +227,7 @@ inventory.each_cons(3){|pets| p pets.map(&:name) }
 # ["scorpion", "beetle", "monkey"]
 # ["beetle", "monkey", "rock"]
 ```
-## .count
+### .count
 Takes an enumerable collection and counts how many elements match the given criteria. If no parameters are given, it returns the total number of elements in the collection. If a parameter is given, it returns the number of elements that match the given parameter. If a block is supplied, this method returns the total number of elements for which the block returned true.
 ```
 @numbers = [1, 0, 3, 2, 5, 4, 7, 6, 9, 8]
@@ -247,7 +257,7 @@ Takes an enumerable collection and counts how many elements match the given crit
 => 2
 ```
 
-## .zip
+### .zip
 Combines more than one list in a zipping fashion.
 ```
 animals = ["dogs", "ducks", "seals"]
@@ -257,7 +267,7 @@ animals.zip(complexions)
     #=> [["dogs", "furry"], ["ducks", "feathery"], ["seals", "slippery"]]
 ```
 
-## .gsub (or .gsub!)
+### .gsub (or .gsub!)
 Provide another quick and easy way of replacing a substring with another string. They take two arguments: the search string and the replacement string. The gsub method returns a modified string, leaving the original string unchanged, whereas the gsub! method directly modify the string object on which the method was called.
 ```
 myString = "Welcome to PHP Essentials!"
@@ -267,7 +277,7 @@ myString.gsub("PHP", "Ruby")
 => "Welcome to Ruby Essentials!"
 ```
 
-## .replace
+### .replace
 Replace an entire string instead of just a substring.
 ```
 myString = "Welcome to PHP!"
@@ -277,5 +287,5 @@ myString.replace "Goodbye to PHP!"
 => "Goodbye to PHP!"
 ```
 
-## .chop
-Removes any last character from the string.
+### .chop
+Removes any last character from the string. It doesn't take arguments.
