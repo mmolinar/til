@@ -289,3 +289,5 @@ myString.replace "Goodbye to PHP!"
 
 ### .chop
 Removes any last character from the string. It doesn't take arguments.
+
+### .insert
