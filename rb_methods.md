@@ -1,4 +1,32 @@
 ### .length
+Strings, Arrays
+Get the length of a String. Or how many elements are in an Array.
+```
+"ruby".length          
+# 4
+
+OR
+
+["cat", "dog", "pizza"].length
+# 3
+
+silly_aray = ["cat", "dog", "pizza"]
+silly_array.length
+# 3
+```
+
+### .empty?
+Strings
+A blank string is a string which has either zero length, or is composed ONLY of white space characters.
+```
+"".empty?
+# true
+
+OR 
+
+"    ".empty?
+# true
+```
 
 ### .downcase
 
@@ -16,7 +44,7 @@ Do something a specific number of times
 ```
 
 ### .each
-Repeat an action for every element in a collection
+Repeat an action for every element in a collection. Returns the original, unchanged object.
 ```
 [1, 2, 3].each { |x| puts x * 10 }
 # Prints 10, 20, 30 on separate lines
@@ -86,7 +114,8 @@ puts age.respond_to?(:next)
 ```
 
 ### .collect or .map
-Takes a block and applies the expression in the block to every element in an array without changing the initial array. 
+Arrays, Hashes, Ranges ~The main use for map is to transform data~
+Takes a block and applies the expression in the block to every element in an array without changing the initial array. Returns a new array filled with whatever gets returned by the block each time it runs.
 ```
 my_nums = [1, 2, 3]
 my_nums.collect { |num| num ** 2 }
@@ -127,17 +156,18 @@ Which returns true if an object is the type of object named and false otherwise:
 ### .select
 Selects a set of numbers or items of the array that correspond to the characteristics you are looking for. 
 
-##  Differences between map, collect, select and each
+###  Differences between map, collect, select and each
 #### .each 
-returns the original object it was called on because it's really used for its side effects and not what it returns
+Returns the original object it was called on because it's really used for its side effects and not what it returns
 #### .each_with_index 
-passes not just the current item but whatever position in the array it was located in.
+Passes not just the current item but whatever position in the array it was located in.
 #### .select 
-returns a new object (e.g. array) filled with only those original items where the block you gave it returned true
+Returns a new object (e.g. array) filled with only those original items where the block you gave it returned true
 #### .map 
-returns a new array filled with whatever gets returned by the block each time it runs.
+Returns a new array filled with whatever gets returned by the block each time it runs.
 
 ### .include? (.member?)
+String
 Test whether a given item is in the enumerable collection. Evaluates to true if it finds what it’s looking for and false otherwise.
 ```
 def include? array, item
@@ -291,3 +321,42 @@ myString.replace "Goodbye to PHP!"
 Removes any last character from the string. It doesn't take arguments.
 
 ### .insert
+
+
+### .to_sym
+
+
+### .to_h
+
+
+### .delete_at(n)
+Array
+Deletes the nth element of the array.
+```
+array.delete_at(0)
+# removes the first element of the array
+```
+
+### .pop
+Arrays
+Removes the last element from the array and returns it
+
+### .unshift
+Arrays
+Adds an element in front of the array.
+```
+users = ["John", "Paul", "Ringo"]
+users.unshift "George"
+# ["George", "Jonh", "Paul", "Ringo"]
+```
+
+### .shift
+Arrays
+Removes the first element of the array and returns it.
+```
+users = ["John", "Paul", "George"]
+users.unshift
+# John
+print users
+# ["Paul", "George"]
+```
