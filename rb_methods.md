@@ -333,7 +333,7 @@ Removes any last character from the string. It doesn't take arguments.
 
 
 ### .delete_at(n)
-Array
+Array  
 Deletes the nth element of the array.
 ```
 array.delete_at(0)
@@ -341,11 +341,11 @@ array.delete_at(0)
 ```
 
 ### .pop
-Arrays
+Arrays  
 Removes the last element from the array and returns it
 
 ### .unshift
-Arrays
+Arrays  
 Adds an element in front of the array.
 ```
 users = ["John", "Paul", "Ringo"]
@@ -354,7 +354,7 @@ users.unshift "George"
 ```
 
 ### .shift
-Arrays
+Arrays  
 Removes the first element of the array and returns it.
 ```
 users = ["John", "Paul", "George"]
@@ -364,7 +364,7 @@ print users
 # ["Paul", "George"]
 ```
 ### .inject
-Arrays, enumerables and converting array elements into hashes
+Arrays, enumerables and converting array elements into hashes  
 Adds the elements of an array together. In the example below, the inital value has been set to "0" but can be ommitted and the value assigned will be the first element of the array. 
 ```
 [5, 6, 7, 8].inject (0) { |result_memo, object| result_memo + object }
