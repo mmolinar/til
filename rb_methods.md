@@ -1,5 +1,5 @@
 ### .length
-Strings, Arrays
+Strings, Arrays  
 Get the length of a String. Or how many elements are in an Array.
 ```
 "ruby".length          
@@ -16,7 +16,7 @@ silly_array.length
 ```
 
 ### .empty?
-Strings
+Strings  
 A blank string is a string which has either zero length, or is composed ONLY of white space characters.
 ```
 "".empty?
@@ -31,6 +31,7 @@ OR
 ### .downcase
 
 ### .split
+String  
 Takes in a string and returns an array. If we pass it a bit of text in parentheses, .split will divide the string wherever it sees that bit of text, called a delimiter. The example below splits the 'text' after any ',':
 ```
 text.split(',')
@@ -59,6 +60,7 @@ my_array.each {|num| puts num if num.even? }
 ```
 
 ### .to_s
+Integers, arrays  
 Converts non-string values to strings.
 
 ### .upto
@@ -92,6 +94,7 @@ age = 26
 ```
 
 ### .respond_to?
+Symbol  
 Takes a symbol and returns true if an object can receive that method and false otherwise. 
 ```
 [1, 2, 3].respond_to?(:push)
@@ -114,7 +117,7 @@ puts age.respond_to?(:next)
 ```
 
 ### .collect or .map
-Arrays, Hashes, Ranges ~The main use for map is to transform data~
+Arrays, Hashes, Ranges  The main use for map is to transform data  
 Takes a block and applies the expression in the block to every element in an array without changing the initial array. Returns a new array filled with whatever gets returned by the block each time it runs.
 ```
 my_nums = [1, 2, 3]
@@ -167,7 +170,7 @@ Returns a new object (e.g. array) filled with only those original items where th
 Returns a new array filled with whatever gets returned by the block each time it runs.
 
 ### .include? (.member?)
-String
+String  
 Test whether a given item is in the enumerable collection. Evaluates to true if it finds what it’s looking for and false otherwise.
 ```
 def include? array, item
