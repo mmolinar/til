@@ -360,3 +360,15 @@ users.unshift
 print users
 # ["Paul", "George"]
 ```
+### .inject
+Arrays, enumerables and converting array elements into hashes
+Adds the elements of an array together. In the example below, the inital value has been set to "0" but can be ommitted and the value assigned will be the first element of the array. 
+```
+[5, 6, 7, 8].inject (0) { |result_memo, object| result_memo + object }
+# 26
+
+OR
+
+[5, 6, 7, 8].inject(:+)
+# 26
+```
