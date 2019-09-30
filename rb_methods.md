@@ -32,9 +32,76 @@ OR
 
 ### .split
 String  
-Takes in a string and returns an array. If we pass it a bit of text in parentheses, .split will divide the string wherever it sees that bit of text, called a delimiter. The example below splits the 'text' after any ',':
+Takes in a string and returns an array. If we pass it a bit of text in parentheses, .split will divide the string wherever it sees that bit of text, called a delimiter. If no delimiter is passed the Split will use a space as the separator character. The first example below splits the 'text' after any ',' 
 ```
-text.split(',')
+csv = "a,b,c,d"
+string.split(",")
+# ["a", "b", "c", "d"]
+```
+
+##### Split on Regex
+In this example Split acts upon a regular expression (regexp). In Ruby we specify these with forward slashes '//'. Here the regex is '\W+' which means one or more non-word characters.
+```
+value = "one, two three: four"
+
+# Split on one or more non-word characters. \W+ is a regex 
+a = value.split(/\W+/)
+
+# Display result.
+puts a
+
+Output
+
+one
+two
+three
+four
+```
+... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ...
+##### Split with limits
+This is the maximum number of array elements that are returned. If more elements are found than are allowed by the limit, the excess ones are grouped in the final array element. Limiting the number of array elements can be useful if you only need the first several parts from a string.
+```
+# Contains five vegetable names.
+value = "carrot,squash,corn,broccoli,spinach"
+
+# Split with limit of 3.
+vegetables = value.split(",", 3)
+puts vegetables
+
+Output
+
+carrot
+squash
+corn,broccoli,spinach
+```
+
+##### Split a single String
+With split we can get the characters from a string. Pass an empty string literal ("") to the split method. The length of the array equals the length of the string.
+```
+value = "xyz 1"
+
+# Separate chars.
+array = value.split ""
+
+# Write length.
+puts array.length
+
+# Write elements.
+print array
+
+Output
+
+5
+["x", "y", "z", " ", "1"]
+```
+
+### .join
+Arrays  
+Takes an array of strings & join these strings into a big string.
+```
+arr = ['a', 'b', 'c']
+arr.join
+# "abc"
 ```
 
 ### .times
@@ -375,3 +442,4 @@ OR
 [5, 6, 7, 8].inject(:+)
 # 26
 ```
+
