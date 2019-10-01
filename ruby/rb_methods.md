@@ -60,7 +60,6 @@ two
 three
 four
 ```
-... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ...
 ##### Split with limits
 This is the maximum number of array elements that are returned. If more elements are found than are allowed by the limit, the excess ones are grouped in the final array element. Limiting the number of array elements can be useful if you only need the first several parts from a string.
 ```
