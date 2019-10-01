@@ -1,5 +1,5 @@
 ### .length
-Strings, Arrays
+Strings, Arrays  
 Returns: Integer  
 Get the length of a String. Or how many elements are in an Array.
 ```
