@@ -1,5 +1,6 @@
 ### .length
-Strings, Arrays  
+Strings, Arrays
+Returns: Integer  
 Get the length of a String. Or how many elements are in an Array.
 ```
 "ruby".length          
@@ -17,6 +18,7 @@ silly_array.length
 
 ### .empty?
 Strings  
+Returns: True/False  
 A blank string is a string which has either zero length, or is composed ONLY of white space characters.
 ```
 "".empty?
@@ -32,6 +34,7 @@ OR
 
 ### .split
 String  
+Returns: Array   
 Takes in a string and returns an array. If we pass it a bit of text in parentheses, .split will divide the string wherever it sees that bit of text, called a delimiter. If no delimiter is passed the Split will use a space as the separator character. The first example below splits the 'text' after any ',' 
 ```
 csv = "a,b,c,d"
@@ -96,7 +99,8 @@ Output
 ```
 
 ### .join
-Arrays  
+Arrays
+Returns: String  
 Takes an array of strings & join these strings into a big string.
 ```
 arr = ['a', 'b', 'c']
@@ -119,6 +123,7 @@ Repeat an action for every element in a collection. Returns the original, unchan
 ```
 
 ### even?
+Integers
 Returns true if int is even
 ```
 my_array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -145,6 +150,7 @@ Same thing is as .upto but with descending values
 ```
 
 ### .push or <<
+Strings, Arrays  
 To add an element to the end of an array you can use .push or the "shovel" (concatenation operator)
 ```
 puts ["a","b","c"] << "d" or puts ["a","b","c"].push("d")
@@ -162,6 +168,7 @@ age = 26
 
 ### .respond_to?
 Symbol  
+Returns: True/False  
 Takes a symbol and returns true if an object can receive that method and false otherwise. 
 ```
 [1, 2, 3].respond_to?(:push)
@@ -174,6 +181,8 @@ puts age.respond_to?(:next)
 ```
 
 ### .next 
+Integer  
+Returns: Integer  
 Will return the integer immediately following the integer it’s called on
 ```
 puts 5.next
@@ -184,7 +193,9 @@ puts age.respond_to?(:next)
 ```
 
 ### .collect or .map
-Arrays, Hashes, Ranges  The main use for map is to transform data  
+Arrays, Hashes, Ranges 
+Returns: Array
+The main use for map is to transform data.  
 Takes a block and applies the expression in the block to every element in an array without changing the initial array. Returns a new array filled with whatever gets returned by the block each time it runs.
 ```
 my_nums = [1, 2, 3]
@@ -214,9 +225,12 @@ my_nums
 ```
 
 ### .floor
+Integer
+Returns: Ingeger
 Rounds a float (a number with a decimal) down to the nearest integer.
 
 ### .is_a?
+Returns: True/False
 Which returns true if an object is the type of object named and false otherwise:
 ```
 :hello.is_a? Symbol
@@ -224,7 +238,33 @@ Which returns true if an object is the type of object named and false otherwise:
 ```
 
 ### .select
-Selects a set of numbers or items of the array that correspond to the characteristics you are looking for. 
+Array, Hashes  
+Returns: Array  
+Returns a new array containing all elements of array for which the given block returns a true value. In other words, selects the set of items of the array that correspond to the characteristics you are looking for.
+```
+a = [18, 22, 33, 3, 5, 6]  
+b = [1, 4, 1, 1, 88, 9]  
+   
+puts "Select Method a: #{a.select {|num| num > 10 }}"
+
+puts "Select Method b: #{b.select {|x| x.odd? }}"
+
+# Select Method a: [18, 22, 33]
+
+# Select Method b: [1, 1, 1, 9]
+
+```
+For Hashes:
+```
+stock = {
+  apples: 10,
+  oranges: 5,
+  bananas: 1
+}
+
+stock.select { |k, v| v > 1 }
+# {:apples=>10, :oranges=>5}
+```
 
 ###  Differences between map, collect, select and each
 #### .each 
@@ -405,6 +445,26 @@ Deletes the nth element of the array.
 ```
 array.delete_at(0)
 # removes the first element of the array
+```
+
+### .delete
+String
+Returns: Copy of string 
+Used to return a copy of the given string with all characters in the intersection of its arguments deleted.
+```
+str = "String Counting"
+puts str.delete "ing"
+# Str Count
+......................................................
+
+str = "String Counting"
+puts str.delete "ing", "^n"
+  
+str2 = "Ruby Mode\\r\\n"
+puts str2.delete "\\"
+
+# Strn Countn
+# Ruby Modern
 ```
 
 ### .pop
