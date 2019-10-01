@@ -24,6 +24,7 @@ This will not take into account the amount of characters.
 We can use ranges to match multiple letters or numbers without having to type them all out. In other words, a range like [2-5] is the same as [2345].
 
 #### Useful Ranges
+```
 [0-9] matches any number from 0 to 9  
 [a-z] matches any letter from a to z (no caps)  
 [^a-z] negated range  
@@ -34,6 +35,7 @@ There is also the negative form of these:
 \W anything that’s not in [0-9a-zA-Z_]  
 \D anything that’s not a number  
 \S anything that’s not a space  
+```
 
 Example: Does this string contain any numbers?
 ```
