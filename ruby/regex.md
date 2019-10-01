@@ -7,6 +7,10 @@ Ruby regular expressions are defined between two forward slashes to differentiat
 ```
 This returns the index of the first occurrence of the word if it was found or nil otherwise. If we don’t care about the index we could use the String#include? method.
 
+```
+_***!!! Remember: the return value when using `=~` is either the string index or `nil`!!!***_
+```
+
 ### Character Class
 Lets you define a range or a list of characters to match. For example, [aeiou] matches any vowel. Example: Does the string contain a vowel?
 ```
@@ -20,3 +24,4 @@ This will not take into account the amount of characters.
 
 ### Ranges
 We can use ranges to match multiple letters or numbers without having to type them all out. In other words, a range like [2-5] is the same as [2345].
+```
