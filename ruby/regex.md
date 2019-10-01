@@ -45,10 +45,12 @@ contains_number("The cat is black")  # returns nil
 ```
 ### Modifiers
 Up until now we have only been able to match a single character at a time. To match multiple characters we can use pattern modifiers:
+```
 +	-> 1 or more  
 *	-> 0 or more  
 ?	->  0 or 1  
-{3,5}	-> between 3 and 5  
+{3,5}	-> between 3 and 5 
+```
 
 Example: Does this look like an IP address?
 ```
