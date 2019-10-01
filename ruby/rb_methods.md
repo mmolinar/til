@@ -502,3 +502,6 @@ OR
 # 26
 ```
 
+### .sort
+Arrays  
+Returns: Array  
