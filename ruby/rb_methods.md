@@ -98,7 +98,7 @@ Output
 ```
 
 ### .join
-Arrays
+Arrays  
 Returns: String  
 Takes an array of strings & join these strings into a big string.
 ```
@@ -115,6 +115,7 @@ Do something a specific number of times
 ```
 
 ### .each
+Arrays
 Repeat an action for every element in a collection. Returns the original, unchanged object.
 ```
 [1, 2, 3].each { |x| puts x * 10 }
@@ -263,6 +264,16 @@ stock = {
 
 stock.select { |k, v| v > 1 }
 # {:apples=>10, :oranges=>5}
+```
+
+### .select.with_index
+Arrays, Hashes
+Returns: Array
+Allows you to filter using the index, instead of the object (in this case a string) itself. Here we want every other word starting with the first word.
+```
+fruits = %w(apple orange banana)
+fruits.select.with_index { |word, idx| idx.even? }
+# ["apple", "banana"]
 ```
 
 ###  Differences between map, collect, select and each
