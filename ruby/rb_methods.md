@@ -505,3 +505,5 @@ OR
 ### .sort
 Arrays  
 Returns: Array  
+
+### .min
