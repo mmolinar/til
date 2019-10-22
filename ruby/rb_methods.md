@@ -518,3 +518,14 @@ Arrays
 Returns: Array  
 
 ### .min
+
+### .each_byte
+String  
+Returns: enumerator  
+
+String class method in Ruby which is used to passes each byte in the given string to the given block or returns an enumerator if no block is given.
+
+```
+puts "Sample".each_byte{|b| print b, ' ' } 
+puts "Input".each_byte{|b| print b, ' ' } 
+```
