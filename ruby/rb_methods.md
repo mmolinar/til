@@ -531,3 +531,19 @@ puts "Input".each_byte{|b| print b, ' ' }
 # 83 97 109 112 108 101 Sample
 # 73 110 112 117 116 Input
 ```
+
+### .chars
+String  
+Array of chars  
+
+String class method in Ruby which is used to return an array of characters in str.
+```
+puts "GFG".chars()  
+puts "G4G".chars()
+# G
+  F
+  G
+  G
+  4
+  G
+```
