@@ -528,4 +528,6 @@ String class method in Ruby which is used to passes each byte in the given strin
 ```
 puts "Sample".each_byte{|b| print b, ' ' } 
 puts "Input".each_byte{|b| print b, ' ' } 
+# 83 97 109 112 108 101 Sample
+# 73 110 112 117 116 Input
 ```
