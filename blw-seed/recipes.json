@@ -186,32 +186,73 @@
     ],
     "directions": [
       {
-        "text": "Precalentar el horno a 180°C.",
+       "text": "Precalentar el horno a 180°C.",
       },
       {
-        "text": "Mezlca los ingredientes secos en un bol.",
-        "image": "/assets/Recetas/Platano 2.jpg"
+       "text": "Mezlca los ingredientes secos en un bol.",
+       "image": "/assets/Recetas/Platano 2.jpg"
       },
       {
-        "text": "En otro bol machaca los plátanos con un tenedor.",
-        "image": "/assets/Recetas/Platano 3.jpg"
+       "text": "En otro bol machaca los plátanos con un tenedor.",
+       "image": "/assets/Recetas/Platano 3.jpg"
       },
       {
        "text": "Incorpora el huevo y el puré de dátiles a los plátanos y mezcla bien. Enseguida agrega la mantequilla derretida.",
-        "image": "/assets/Recetas/Platano 4.jpg"
+       "image": "/assets/Recetas/Platano 4.jpg"
       },
       {
        "text": "Finalmente incorpora lentamente los ingredientes secos a la mezcla de plátano y revuelve hasta que la mezcla que lisa y uniforme.",
        "image": "/assets/Recetas/Platano 5.jpg"
       },
       {
-        "text": "Echa la mezcla en los moldes de muffins ⅔ de su capacidad y hornea 25 a 30 minutos. Si estás haciendo mini muffins hornéalos 10 a 15 minutos.",
-        "image": "/assets/Recetas/Platano 6.jpg"
+       "text": "Echa la mezcla en los moldes de muffins ⅔ de su capacidad y hornea 25 a 30 minutos. Si estás haciendo mini muffins hornéalos 10 a 15 minutos.",
+       "image": "/assets/Recetas/Platano 6.jpg"
       },
       {
-        "text": "Puedes saber que están listos si el centro del muffin rebota cuando lo presionas ligeramente con tu dedo.",
-        "image": "/assets/Recetas/Platano 7.jpg",
-        "image": "/assets/Recetas/Platano 8.jpg"
+       "text": "Puedes saber que están listos si el centro del muffin rebota cuando lo presionas ligeramente con tu dedo.",
+       "image": "/assets/Recetas/Platano 7.jpg",
+       "image": "/assets/Recetas/Platano 8.jpg"
+      }
+    ]
+  },
+ 
+ {
+    "title": "Boeuf Bourguignon (Carne de Borgoña)",
+    "main_image":"/assets/Recetas/Boeuf Bourg 1.jpg",
+    "ingredients": [
+     "250 gramos de papas", "250 gramos de zanahoria", "450 gramos de carne (cortes para cocinar en estofado)", "100 gramos de cebolla", "200 gramos de champiñones", "1 bouquet garni", "2 cucharadas de concentrado de jitomate o 4 cucharadas de puré de jitomate", "Pimienta", "Aceite de oliva", "Mantequilla", "1 ajo" 
+    ],
+    "descriptions": [
+     "Esta receta tarda 2h30 en cocer. Es un platillo de coccion a fuego lento entonces debes anticipar el tiempo de coccion ya que si tratas de acelerar el proceso y aumentas el fuego, la carne se va a endurecer. El Boeuf Bourguignon es una receta tradicional francesa que normalmente se hace con 1 botella de vino tinto de la región de Borgoña. Y aunque el alcohol del vino se evapora con la coccion a menos de 2% (bebidas no-alcohólicas en USA son aquellas con menos de 1% de alcohol), aquí te dejo una opción sin vino. Pero puedes usar esta misma receta para hacer el platillo tradicional y en lugar de agua usas vino. Si vas a hacer este plato para bebés que comen ellos mismos (BLW), corta la carne en tiras gruesas tal como hice con las papas y zanahorias. Si es para personitas que ya comen con tenedor, corta la carne y los vegetales en cubos grandes, como corté la carne en la foto y a ellos les cortas todo en pedazos pequeños. De cualquier manera es una receta que va a gustar a toda la familia, grandes y pequeños. Si te sobra, lo puedes congelar hasta 2 meses. Solo déjalo descongelar en el refri la noche anterior y luego calientalo en el sartén."
+    ],
+    "directions": [
+      {
+       "text": "En una olla muy grande (aquí vas a echar todo), calienta la mantequilla y el aceite de oliva.",
+       "image": "/assets/Recetas/Boeuf Bourg 2.jpg"
+      },
+      {
+       "text": "A fuego medio-alto, agrega la carne asegurando dorar cada lado. Una vez dorados los cubos, sácalos y apártalos para después. Reduce el fuego a medio.",
+       "image": "/assets/Recetas/Boeuf Bourg 3.jpg"
+      },
+      {
+       "text": "En la misma olla, fríe la cebolla.",
+       "image": "/assets/Recetas/Boeuf Bourg 4.jpg"
+      },
+      {
+       "text": "Luego las zanahorias y el concentrado de jitomate unos 4 o 5 minutos hasta que las zanahorias agarren color.",
+       "image": "/assets/Recetas/Boeuf Bourg 5.jpg"
+      },
+      {
+       "text": "Echa el resto de los ingredientes incluyendo el bouquet garni y la carne que se había apartado. Revuelve todo unos 2 minutos.",
+       "image": "/assets/Recetas/Boeuf Bourg 6.jpg"
+      },
+      {
+       "text": "Cubre con la cantidad de agua necesaria para cubrir todo.",
+       "image": "/assets/Recetas/Boeuf Bourg 7.jpg"
+      },
+      {
+       "text": "Reduce el fuego a bajo-medio, tápalo y deja cocer 2h30. Al as 2h30 saca un pedazo de carne, y perforalo con un cuchillo, debe de ser suave como la mantequilla. Si está un poco dura continúa la cocción unos 15 minutos a media hora más. Puedes moler unas cuantas papas y zanahorias e incorporarlas a la salsa si quieres una salsa un poco más espesa. A veces hago esto pero esta vez lo salté.",
+       "image": "/assets/Recetas/Boeuf Bourg 8.jpg"
       }
     ]
   },
