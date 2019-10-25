@@ -1,0 +1,82 @@
+[
+  {
+  "recipe-links": [
+    {
+      "recipe-path": "/pages/mac_and_cheese",
+      "recipe_image": "/assets/Recetas/Mac 650.jpg",
+      "recipe-title": "Muffins Mac & Cheese"
+    },
+    {
+      "recipe-path": "/pages/trufas_cocoa",
+      "recipe_image": "/assets/Recetas/Trufas 4.jpg",
+      "recipe-title": "Trufas Cocoa y Almendras"
+    },
+    {
+      "path": "/pages/croquetas_atun",
+      "recipe_image": "/assets/Recetas/Croquetas 8.jpg",
+      "recipe-title": "Croquetas de Atún"
+    },
+    {
+      "path": "/pages/muffins_platano",
+      "recipe_image": "/assets/Recetas/Platano 8.jpg",
+      "recipe-title": "Muffins de Plátano"
+    },
+    {
+      "path": "/pages/agua_de_sabor",
+      "recipe_image": "/assets/Recetas/Agua 4.jpg",
+      "recipe-title": "Agua de sabor"
+    },
+    {
+      "path": "/pages/carne_borgona",
+      "recipe_image": "/assets/Recetas/Boeuf Bourg 8.jpg",
+      "recipe-title": "Boeuf Bourguignon"
+    },
+    {
+      "path": "/pages/ratatouille",
+      "recipe_image": "/assets/Recetas/Ratatouille 3.jpg",
+      "recipe-title": "Ratatouille"
+    },
+    {
+      "path": "/pages/hachis_parmentier",
+      "recipe_image": "/assets/Recetas/Hachis Parm 7.jpg",
+      "recipe-title": "Hachis Parmentier"
+    },
+    {
+      "path": "/pages/muffins_calabacita",
+      "recipe_image": "/assets/Recetas/Muf Calabacita 8.jpg",
+      "recipe-title": "Muffins de Calabacita"
+    },
+    {
+      "path": "/pages/tortitas_garbanzo",
+      "recipe_image": "/assets/Recetas/Chickpea patties 7.jpg",
+      "recipe-title": "Tortitas de garbanzo"
+    },
+    {
+      "path": "/pages/salsas_sencillas",
+      "recipe_image": "/assets/Recetas/Salsas_mexicanas.jpg",
+      "recipe-title": "Salsas super sencillas"
+    },
+    {
+      "path": "/pages/pure_datiles",
+      "recipe_image": "/assets/Recetas/Pure datiles 5.jpg",
+      "recipe-title": "Puré de dátiles"
+    },
+    {
+      "path": "/pages/super_hamburguesitas",
+      "recipe_image": "/assets/Recetas/Hamburguesas 6.jpg",
+      "recipe-title": "Super hamburguesitas"
+    },
+    {
+      "path": "/pages/risotto_berenjena",
+      "recipe_image": "/assets/Recetas/Risotto Berenjena 11.jpg",
+      "recipe-title": "Risotto"
+    }
+   ]
+  }
+]
+
+
+
+<!-- Recipes model --!>
+
+
