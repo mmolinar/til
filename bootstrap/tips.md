@@ -16,4 +16,6 @@ Internet Explorer 10-11 do not render inline elements like links or images (or :
 ## Navbar
 ### navbar-expand-lg (md or sm)
 Here’s an example of all the sub-components included in a responsive light-themed navbar that automatically collapses at the lg (large) breakpoint.
-<<nav class="navbar navbar-expand-lg navbar-light bg-light">>
+```
+<nav class="navbar navbar-expand-lg navbar-light bg-light">>
+```
