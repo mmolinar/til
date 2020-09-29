@@ -440,6 +440,22 @@ myString.replace "Goodbye to PHP!"
 ### .chop
 Removes any last character from the string. It doesn't take arguments.
 
+### .chomp
+Changes the result of the 'gets' method. Removes the /n from the input the user has given. 
+
+Be careful not to confuse chomp with the chop method. The chop method will simply knock off the last character of the 
+#string, no matter what it is
+ ```
+"hello\n".chomp
+#=> "hello"
+
+"hello".chomp
+#=> "hello"
+
+"hello".chop
+#=> "hell"
+```
+
 ### .insert
 
 
