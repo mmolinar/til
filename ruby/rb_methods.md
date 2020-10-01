@@ -606,3 +606,15 @@ If no block is given, an enumerator is returned instead.
 a = [1, 2, 3, 4, 5, 0]
 a.drop_while { |i| i < 3 }   #=> [3, 4, 5, 0]
 ```
+### .group_by → an_enumerator
+Groups the collection by result of the block. Returns a hash where the keys are the evaluated result from the block and the values are arrays of elements in the collection that correspond to the key.
+
+If no block is given an enumerator is returned.
+```
+(1..6).group_by { |i| i%3 }   #=> {0=>[3, 6], 1=>[1, 4], 2=>[2, 5]}
+```
+### .tally → a_hash
+Tallies the collection, i.e., counts the occurrences of each element. Returns a hash with the elements of the collection as keys and the corresponding counts as values.
+```
+["a", "b", "c", "b"].tally  #=> {"a"=>1, "b"=>2, "c"=>1}
+```
