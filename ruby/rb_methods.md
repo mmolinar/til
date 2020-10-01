@@ -310,6 +310,42 @@ def include?(array, item)
   end
 end
 ```
+
+### .min
+min → obj
+min { |a, b| block } → obj
+min(n) → array
+min(n) { |a, b| block } → array
+Returns the object in enum with the minimum value. The first form assumes all objects implement Comparable; the second uses the block to return a <=> b.
+
+a = %w(albatross dog horse)
+a.min                                   #=> "albatross"
+a.min { |a, b| a.length <=> b.length }  #=> "dog"
+If the n argument is given, minimum n elements are returned as a sorted array.
+```
+a = %w[albatross dog horse]
+a.min(2)                                  #=> ["albatross", "dog"]
+a.min(2) {|a, b| a.length <=> b.length }  #=> ["dog", "horse"]
+[5, 1, 3, 4, 2].min(3)                    #=> [1, 2, 3]
+```
+
+### .min_by
+min_by {|obj| block } → objclick to toggle source
+min_by → an_enumerator
+min_by(n) {|obj| block } → array
+min_by(n) → an_enumerator
+Returns the object in enum that gives the minimum value from the given block.
+
+If no block is given, an enumerator is returned instead.
+```
+a = %w(albatross dog horse)
+a.min_by { |x| x.length }   #=> "dog"
+If the n argument is given, minimum n elements are returned as an array. These n elements are sorted by the value from the given block.
+
+a = %w[albatross dog horse]
+p a.min_by(2) {|x| x.length } #=> ["dog", "horse"]
+```
+
 ### .minmax_by
 Takes an enumerable collection and returns a 2-element array consisting of the minimum and maximum values, as calculated via the given block.
 ```
@@ -532,8 +568,6 @@ OR
 ### .sort
 Arrays  
 Returns: Array  
-
-### .min
 
 ### .each_byte
 String  
