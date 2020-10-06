@@ -36,6 +36,9 @@ Install rails and all gems needed for the project (or cloned project)
 Update Gemfile.lock with:
 `bundle install`
 
+Initialize Rspec (or Minitest) for debugging
+`rspec --init`
+
 Then create a database and migrate said database.
 `rails db:create`
 `rails db:migrate`
