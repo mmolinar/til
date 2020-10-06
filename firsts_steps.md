@@ -21,13 +21,19 @@ Add your SSH private key to the ssh-agent and store your passphrase in the keych
 
 ## New project
 
+Install Ruby version desired
+`rbenv install 2.7.1`
+
+Use this version
+`rbenv shell 2.7.1`
+
 Install gem bundler to be able to install gems.
 `gem install bundler`
 
-Install rails
+Install rails and all gems needed for the project (or cloned project)
 `gem install rails`
 
-Install all gems needed from the project (or cloned project) and run:
+Update Gemfile.lock with:
 `bundle install`
 
 Then create a database and migrate said database.
