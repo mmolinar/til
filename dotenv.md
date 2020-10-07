@@ -38,3 +38,4 @@ dotenv_test
 ├── .env
 └── .gitignore
 ```
+### DONT FORGET! Add .env to your .gitignore before pushing to Github otherwise your keys will be exposed
