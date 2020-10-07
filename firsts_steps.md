@@ -39,6 +39,11 @@ Update Gemfile.lock with:
 Initialize Rspec (or Minitest) for debugging
 `rspec --init`
 
+Get gem Pry for debugging and require 'pry' in the program needing debugging
+```
+gem pry
+```
+
 Then create a database and migrate said database.
 `rails db:create`
 `rails db:migrate`
