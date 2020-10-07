@@ -12,7 +12,7 @@ TWITTER_API_SECRET="this_is_soooo_secret"
 BEST_WEBSITE_EVER="thehackingproject"
 ```
 
-Add this to you `app.rb`
+Add this to your `app.rb`
 ```
 require 'dotenv'# Appelle la gem Dotenv
 
