@@ -46,6 +46,10 @@ gem pry
 
 Use `binding.pry` in the line of code of your program you want to debug. exit pour sortir du Pry.
 
+Use `gem dotenv` to keep your API keys off Github. 
+
+Store all your keys in a .env folder and add the .env folder in your .gitignore so it won't be pushed and the keys stay private.
+
 Then create a database and migrate said database.
 `rails db:create`
 `rails db:migrate`
