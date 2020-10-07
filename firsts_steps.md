@@ -44,7 +44,7 @@ Get gem Pry for debugging and `require 'pry'` in the program needing debugging.
 gem pry
 `
 
-Use `binding.pry` in the line of code of your program you want to debug. 
+Use `binding.pry` in the line of code of your program you want to debug. exit pour sortir du Pry.
 
 Then create a database and migrate said database.
 `rails db:create`
