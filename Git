@@ -1,4 +1,4 @@
-### Basic steps for Git
+## Basic steps for Git
 Se positionner sur master : $ git checkout master
 Mettre à jour master sur son ordi : $ git pull origin master
 Créer une branche, depuis master, pour travailler : $ git branch nom_de_ta_feature
@@ -14,7 +14,7 @@ $ git merge nom_de_ta_feature + gérer les conflits si besoin
 $ git push origin master
 
 
-### Pour fusionner la branche contenant ton travail, voici la marche à suivre, étape par étape :
+## Pour fusionner la branche contenant ton travail, voici la marche à suivre, étape par étape :
 
 $ git checkout master : tu te remets sur la branche master en vue de la mettre à jour (ça fait 3 jours que tu ne l'as pas fait) ;
 $ git pull origin master : tu récupères de GitHub tout le travail qui a été effectué et mets la branche master à jour ;
