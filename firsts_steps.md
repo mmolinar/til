@@ -66,4 +66,4 @@ $ git push heroku master
 $ heroku run rails db:migrate #optionnel si tu as une migration à migrer
 
 To edit Credentials in Vim, I execute with bash 
-$bash -c "EDITOR=vi rails credentials:edit"
+`bash -c "EDITOR=vi rails credentials:edit"`
